@@ -1,0 +1,26 @@
+customer_id,first_name,last_name,email,gender,age,city,country,segment,signup_date
+C001,James,Thomas,james.thomas1@example.com,Male,33,London,UK,Consumer,2024-04-14
+C002,Noah,Hall,noah.hall2@example.com,Male,20,New York,USA,Consumer,2024-08-11
+C003,Lucas,Green,lucas.green3@example.com,Male,54,New York,USA,Consumer,2025-03-05
+C004,Thomas,Hill,thomas.hill4@example.com,Male,19,Manchester,UK,Consumer,2025-03-08
+C005,Olivia,Davis,olivia.davis5@example.com,Female,67,London,UK,Corporate,2024-04-14
+C006,Giorgi,Miller,giorgi.miller6@example.com,Male,41,Berlin,Germany,Small Business,2024-09-27
+C007,Max,Young,max.young7@example.com,Male,26,Tbilisi,Georgia,Corporate,2024-03-21
+C008,Clara,Green,clara.green8@example.com,Female,55,Berlin,Germany,Consumer,2024-03-12
+C009,Leo,Anderson,leo.anderson9@example.com,Male,24,Manchester,UK,Consumer,2024-04-13
+C010,Olivia,Young,olivia.young10@example.com,Female,42,Madrid,Spain,Consumer,2025-01-14
+C011,Emma,Adams,emma.adams11@example.com,Female,63,Manchester,UK,Small Business,2024-03-14
+C012,Lucas,Anderson,lucas.anderson12@example.com,Male,48,Austin,USA,Corporate,2024-10-03
+C013,Leo,Martin,leo.martin13@example.com,Male,33,New York,USA,Consumer,2024-11-19
+C014,Olivia,Brown,olivia.brown14@example.com,Female,55,London,UK,Small Business,2024-11-18
+C015,Leo,King,leo.king15@example.com,Male,60,Munich,Germany,Corporate,2024-05-26
+C016,Sarah,Anderson,sarah.anderson16@example.com,Female,54,Toronto,Canada,Small Business,2024-09-26
+C017,Elena,Walker,elena.walker17@example.com,Female,33,Berlin,Germany,Consumer,2025-06-05
+C018,Linda,Johnson,linda.johnson18@example.com,Female,28,Chicago,USA,Small Business,2024-06-12
+C019,Elena,Brown,elena.brown19@example.com,Female,43,Munich,Germany,Small Business,2025-04-24
+C020,Mia,Smith,mia.smith20@example.com,Female,65,Madrid,Spain,Consumer,2024-09-30
+C021,Linda,Moore,linda.moore21@example.com,Female,29,Munich,Germany,Corporate,2024-01-04
+C022,Mia,Wilson,mia.wilson22@example.com,Female,25,Tbilisi,Georgia,Small Business,2024-11-01
+C023,David,Lee,david.lee23@example.com,Male,53,Austin,USA,Small Business,2024-01-01
+C024,Sophie,Smith,sophie.smith24@example.com,Female,42,Chicago,USA,Corporate,2024-09-02
+C025,Michael,Hill,michael.hill25@example.com,Male,24,Chicago,USA,Small Business,2025-05-12

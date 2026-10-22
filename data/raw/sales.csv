@@ -1,0 +1,151 @@
+sale_id,order_date,customer_id,product_id,product_name,category,quantity,unit_price,discount,total_amount,payment_method,channel
+S0001,2024-03-30,C007,P011,Gel Pens (12-pack),Office Supplies,4,9.99,0.1,35.96,Bank Transfer,Online
+S0002,2024-04-25,C011,P004,USB-C Hub,Electronics,3,39.5,0.0,118.5,PayPal,In-Store
+S0003,2024-04-26,C001,P012,Printer Paper (500 sheets),Office Supplies,1,7.8,0.05,7.41,Bank Transfer,In-Store
+S0004,2024-04-29,C001,P004,USB-C Hub,Electronics,2,39.5,0.0,79.0,PayPal,Online
+S0005,2024-05-01,C008,P009,Bookshelf,Furniture,1,119.0,0.1,107.1,Bank Transfer,In-Store
+S0006,2024-05-05,C008,P013,Stapler,Office Supplies,1,14.25,0.0,14.25,Debit Card,Online
+S0007,2024-05-07,C007,P006,Office Chair,Furniture,2,199.0,0.1,358.2,PayPal,Online
+S0008,2024-05-21,C008,P016,Water Bottle,Accessories,4,18.0,0.0,72.0,Debit Card,In-Store
+S0009,2024-05-23,C007,P014,Backpack,Accessories,1,59.0,0.0,59.0,Debit Card,In-Store
+S0010,2024-06-12,C001,P016,Water Bottle,Accessories,1,18.0,0.0,18.0,Credit Card,In-Store
+S0011,2024-06-29,C007,P008,Desk Lamp,Furniture,2,34.9,0.0,69.8,Credit Card,In-Store
+S0012,2024-07-24,C007,P012,Printer Paper (500 sheets),Office Supplies,1,7.8,0.0,7.8,Bank Transfer,Online
+S0013,2024-07-25,C008,P003,27-inch Monitor,Electronics,2,249.0,0.0,498.0,PayPal,Online
+S0014,2024-08-07,C023,P008,Desk Lamp,Furniture,1,34.9,0.0,34.9,Credit Card,In-Store
+S0015,2024-08-22,C021,P004,USB-C Hub,Electronics,1,39.5,0.0,39.5,Bank Transfer,In-Store
+S0016,2024-09-09,C024,P015,Laptop Sleeve,Accessories,1,29.95,0.1,26.95,Debit Card,In-Store
+S0017,2024-09-14,C007,P009,Bookshelf,Furniture,2,119.0,0.0,238.0,Credit Card,Online
+S0018,2024-10-13,C024,P009,Bookshelf,Furniture,1,119.0,0.1,107.1,Debit Card,Online
+S0019,2024-10-22,C024,P010,Notebook (5-pack),Office Supplies,1,12.49,0.05,11.87,Credit Card,Online
+S0020,2024-10-25,C015,P014,Backpack,Accessories,2,59.0,0.0,118.0,Credit Card,In-Store
+S0021,2024-10-28,C023,P016,Water Bottle,Accessories,1,18.0,0.0,18.0,Debit Card,In-Store
+S0022,2024-11-24,C002,P008,Desk Lamp,Furniture,5,34.9,0.05,165.78,Credit Card,Online
+S0023,2024-11-29,C013,P007,Standing Desk,Furniture,2,429.0,0.0,858.0,Credit Card,In-Store
+S0024,2024-12-03,C013,P016,Water Bottle,Accessories,1,18.0,0.0,18.0,Bank Transfer,In-Store
+S0025,2024-12-10,C018,P008,Desk Lamp,Furniture,3,34.9,0.2,83.76,Bank Transfer,Online
+S0026,2024-12-10,C011,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.05,170.05,PayPal,In-Store
+S0027,2024-12-16,C015,P002,Mechanical Keyboard,Electronics,3,89.99,0.1,242.97,Credit Card,Online
+S0028,2024-12-27,C011,P004,USB-C Hub,Electronics,2,39.5,0.0,79.0,Debit Card,In-Store
+S0029,2024-12-27,C021,P008,Desk Lamp,Furniture,1,34.9,0.1,31.41,PayPal,Online
+S0030,2024-12-29,C014,P016,Water Bottle,Accessories,2,18.0,0.0,36.0,PayPal,Online
+S0031,2025-01-01,C018,P008,Desk Lamp,Furniture,2,34.9,0.0,69.8,Debit Card,Online
+S0032,2025-01-05,C022,P013,Stapler,Office Supplies,2,14.25,0.1,25.65,Credit Card,In-Store
+S0033,2025-01-07,C011,P009,Bookshelf,Furniture,1,119.0,0.0,119.0,Debit Card,In-Store
+S0034,2025-01-12,C002,P007,Standing Desk,Furniture,1,429.0,0.0,429.0,Credit Card,Online
+S0035,2025-01-14,C002,P011,Gel Pens (12-pack),Office Supplies,1,9.99,0.0,9.99,PayPal,Online
+S0036,2025-01-15,C014,P001,Wireless Mouse,Electronics,2,24.99,0.0,49.98,Bank Transfer,Online
+S0037,2025-01-17,C008,P004,USB-C Hub,Electronics,1,39.5,0.1,35.55,Bank Transfer,Online
+S0038,2025-01-21,C001,P009,Bookshelf,Furniture,1,119.0,0.1,107.1,Credit Card,Online
+S0039,2025-01-22,C013,P011,Gel Pens (12-pack),Office Supplies,1,9.99,0.0,9.99,Bank Transfer,Online
+S0040,2025-01-24,C013,P009,Bookshelf,Furniture,3,119.0,0.0,357.0,PayPal,Online
+S0041,2025-01-25,C014,P008,Desk Lamp,Furniture,4,34.9,0.0,139.6,Bank Transfer,In-Store
+S0042,2025-01-25,C008,P010,Notebook (5-pack),Office Supplies,1,12.49,0.0,12.49,Bank Transfer,In-Store
+S0043,2025-02-01,C005,P013,Stapler,Office Supplies,2,14.25,0.0,28.5,Debit Card,In-Store
+S0044,2025-02-05,C008,P014,Backpack,Accessories,3,59.0,0.0,177.0,Debit Card,Online
+S0045,2025-02-06,C014,P015,Laptop Sleeve,Accessories,4,29.95,0.05,113.81,Credit Card,In-Store
+S0046,2025-02-08,C015,P009,Bookshelf,Furniture,3,119.0,0.1,321.3,Credit Card,In-Store
+S0047,2025-02-17,C018,P010,Notebook (5-pack),Office Supplies,1,12.49,0.0,12.49,Bank Transfer,Online
+S0048,2025-02-18,C022,P011,Gel Pens (12-pack),Office Supplies,1,9.99,0.0,9.99,Bank Transfer,Online
+S0049,2025-02-27,C012,P002,Mechanical Keyboard,Electronics,1,89.99,0.0,89.99,Bank Transfer,In-Store
+S0050,2025-03-03,C005,P014,Backpack,Accessories,2,59.0,0.0,118.0,PayPal,Online
+S0051,2025-03-04,C018,P006,Office Chair,Furniture,2,199.0,0.0,398.0,Debit Card,In-Store
+S0052,2025-03-15,C018,P014,Backpack,Accessories,1,59.0,0.0,59.0,Bank Transfer,In-Store
+S0053,2025-03-19,C012,P009,Bookshelf,Furniture,1,119.0,0.0,119.0,PayPal,In-Store
+S0054,2025-03-20,C014,P004,USB-C Hub,Electronics,1,39.5,0.05,37.52,Debit Card,In-Store
+S0055,2025-03-23,C010,P010,Notebook (5-pack),Office Supplies,4,12.49,0.0,49.96,PayPal,Online
+S0056,2025-03-24,C015,P013,Stapler,Office Supplies,2,14.25,0.0,28.5,Credit Card,In-Store
+S0057,2025-03-30,C016,P015,Laptop Sleeve,Accessories,1,29.95,0.0,29.95,Credit Card,In-Store
+S0058,2025-03-31,C016,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.0,179.0,Credit Card,In-Store
+S0059,2025-04-01,C014,P011,Gel Pens (12-pack),Office Supplies,3,9.99,0.05,28.47,Debit Card,In-Store
+S0060,2025-04-07,C015,P004,USB-C Hub,Electronics,4,39.5,0.05,150.1,Bank Transfer,Online
+S0061,2025-04-08,C003,P003,27-inch Monitor,Electronics,3,249.0,0.0,747.0,Debit Card,In-Store
+S0062,2025-04-09,C013,P002,Mechanical Keyboard,Electronics,1,89.99,0.0,89.99,Credit Card,Online
+S0063,2025-04-10,C018,P012,Printer Paper (500 sheets),Office Supplies,2,7.8,0.0,15.6,PayPal,In-Store
+S0064,2025-04-13,C020,P009,Bookshelf,Furniture,1,119.0,0.05,113.05,Credit Card,In-Store
+S0065,2025-04-13,C006,P004,USB-C Hub,Electronics,1,39.5,0.0,39.5,Bank Transfer,In-Store
+S0066,2025-04-18,C022,P008,Desk Lamp,Furniture,1,34.9,0.0,34.9,PayPal,Online
+S0067,2025-04-20,C021,P001,Wireless Mouse,Electronics,1,24.99,0.0,24.99,Debit Card,Online
+S0068,2025-04-20,C016,P004,USB-C Hub,Electronics,1,39.5,0.0,39.5,PayPal,In-Store
+S0069,2025-04-24,C022,P009,Bookshelf,Furniture,3,119.0,0.1,321.3,PayPal,Online
+S0070,2025-04-30,C004,P012,Printer Paper (500 sheets),Office Supplies,1,7.8,0.0,7.8,Debit Card,In-Store
+S0071,2025-05-02,C021,P008,Desk Lamp,Furniture,1,34.9,0.0,34.9,PayPal,In-Store
+S0072,2025-05-02,C006,P012,Printer Paper (500 sheets),Office Supplies,5,7.8,0.0,39.0,PayPal,In-Store
+S0073,2025-05-07,C005,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.05,170.05,Debit Card,In-Store
+S0074,2025-05-11,C009,P014,Backpack,Accessories,4,59.0,0.0,236.0,Bank Transfer,In-Store
+S0075,2025-05-16,C018,P014,Backpack,Accessories,1,59.0,0.05,56.05,PayPal,Online
+S0076,2025-05-22,C014,P015,Laptop Sleeve,Accessories,1,29.95,0.0,29.95,Bank Transfer,In-Store
+S0077,2025-05-25,C018,P014,Backpack,Accessories,1,59.0,0.0,59.0,Bank Transfer,In-Store
+S0078,2025-05-28,C008,P015,Laptop Sleeve,Accessories,1,29.95,0.0,29.95,PayPal,In-Store
+S0079,2025-05-31,C025,P016,Water Bottle,Accessories,2,18.0,0.0,36.0,PayPal,Online
+S0080,2025-06-10,C003,P008,Desk Lamp,Furniture,2,34.9,0.0,69.8,PayPal,Online
+S0081,2025-06-11,C024,P016,Water Bottle,Accessories,5,18.0,0.0,90.0,Debit Card,In-Store
+S0082,2025-06-18,C012,P007,Standing Desk,Furniture,2,429.0,0.1,772.2,Bank Transfer,In-Store
+S0083,2025-06-18,C014,P014,Backpack,Accessories,2,59.0,0.05,112.1,Credit Card,In-Store
+S0084,2025-06-21,C015,P006,Office Chair,Furniture,1,199.0,0.05,189.05,Debit Card,In-Store
+S0085,2025-06-22,C020,P008,Desk Lamp,Furniture,1,34.9,0.2,27.92,Bank Transfer,Online
+S0086,2025-06-26,C024,P004,USB-C Hub,Electronics,4,39.5,0.0,158.0,PayPal,Online
+S0087,2025-07-07,C003,P007,Standing Desk,Furniture,1,429.0,0.05,407.55,Credit Card,In-Store
+S0088,2025-07-08,C004,P011,Gel Pens (12-pack),Office Supplies,3,9.99,0.2,23.98,Bank Transfer,Online
+S0089,2025-07-13,C003,P004,USB-C Hub,Electronics,1,39.5,0.0,39.5,Credit Card,In-Store
+S0090,2025-07-22,C005,P008,Desk Lamp,Furniture,1,34.9,0.0,34.9,Credit Card,Online
+S0091,2025-07-22,C021,P015,Laptop Sleeve,Accessories,2,29.95,0.0,59.9,Bank Transfer,In-Store
+S0092,2025-07-24,C008,P001,Wireless Mouse,Electronics,1,24.99,0.0,24.99,Debit Card,In-Store
+S0093,2025-07-28,C005,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.05,170.05,PayPal,Online
+S0094,2025-08-01,C010,P016,Water Bottle,Accessories,1,18.0,0.0,18.0,Bank Transfer,Online
+S0095,2025-08-03,C025,P010,Notebook (5-pack),Office Supplies,2,12.49,0.05,23.73,Bank Transfer,In-Store
+S0096,2025-08-03,C013,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.0,179.0,PayPal,Online
+S0097,2025-08-06,C024,P009,Bookshelf,Furniture,3,119.0,0.05,339.15,Debit Card,In-Store
+S0098,2025-08-06,C007,P006,Office Chair,Furniture,5,199.0,0.0,995.0,Credit Card,In-Store
+S0099,2025-08-07,C002,P014,Backpack,Accessories,1,59.0,0.05,56.05,Bank Transfer,In-Store
+S0100,2025-08-07,C010,P001,Wireless Mouse,Electronics,1,24.99,0.0,24.99,Bank Transfer,Online
+S0101,2025-08-09,C016,P003,27-inch Monitor,Electronics,1,249.0,0.05,236.55,PayPal,Online
+S0102,2025-08-10,C014,P002,Mechanical Keyboard,Electronics,3,89.99,0.0,269.97,Bank Transfer,In-Store
+S0103,2025-08-19,C007,P015,Laptop Sleeve,Accessories,2,29.95,0.05,56.9,Bank Transfer,In-Store
+S0104,2025-08-19,C021,P010,Notebook (5-pack),Office Supplies,2,12.49,0.1,22.48,Bank Transfer,Online
+S0105,2025-08-20,C019,P009,Bookshelf,Furniture,4,119.0,0.0,476.0,Bank Transfer,In-Store
+S0106,2025-08-20,C009,P010,Notebook (5-pack),Office Supplies,1,12.49,0.0,12.49,Credit Card,Online
+S0107,2025-08-22,C023,P003,27-inch Monitor,Electronics,1,249.0,0.05,236.55,PayPal,In-Store
+S0108,2025-08-29,C022,P013,Stapler,Office Supplies,1,14.25,0.0,14.25,Bank Transfer,In-Store
+S0109,2025-09-02,C017,P001,Wireless Mouse,Electronics,2,24.99,0.0,49.98,Debit Card,Online
+S0110,2025-09-03,C017,P007,Standing Desk,Furniture,2,429.0,0.05,815.1,Bank Transfer,Online
+S0111,2025-09-05,C006,P011,Gel Pens (12-pack),Office Supplies,1,9.99,0.0,9.99,PayPal,In-Store
+S0112,2025-09-11,C008,P004,USB-C Hub,Electronics,2,39.5,0.0,79.0,Debit Card,Online
+S0113,2025-09-11,C004,P006,Office Chair,Furniture,1,199.0,0.05,189.05,PayPal,Online
+S0114,2025-09-14,C016,P014,Backpack,Accessories,4,59.0,0.0,236.0,PayPal,Online
+S0115,2025-09-20,C009,P003,27-inch Monitor,Electronics,1,249.0,0.05,236.55,Credit Card,In-Store
+S0116,2025-09-23,C019,P003,27-inch Monitor,Electronics,1,249.0,0.05,236.55,PayPal,In-Store
+S0117,2025-09-29,C004,P014,Backpack,Accessories,2,59.0,0.0,118.0,Credit Card,In-Store
+S0118,2025-10-05,C017,P011,Gel Pens (12-pack),Office Supplies,1,9.99,0.0,9.99,Credit Card,Online
+S0119,2025-10-06,C018,P001,Wireless Mouse,Electronics,1,24.99,0.05,23.74,PayPal,Online
+S0120,2025-10-21,C009,P008,Desk Lamp,Furniture,1,34.9,0.0,34.9,PayPal,Online
+S0121,2025-10-21,C016,P002,Mechanical Keyboard,Electronics,2,89.99,0.05,170.98,Debit Card,Online
+S0122,2025-10-28,C006,P007,Standing Desk,Furniture,3,429.0,0.0,1287.0,Debit Card,Online
+S0123,2025-10-29,C015,P005,Noise-Cancelling Headphones,Electronics,1,179.0,0.05,170.05,PayPal,In-Store
+S0124,2025-10-31,C003,P004,USB-C Hub,Electronics,4,39.5,0.0,158.0,Bank Transfer,In-Store
+S0125,2025-11-03,C025,P001,Wireless Mouse,Electronics,2,24.99,0.1,44.98,Debit Card,In-Store
+S0126,2025-11-04,C002,P007,Standing Desk,Furniture,4,429.0,0.0,1716.0,Debit Card,Online
+S0127,2025-11-05,C009,P010,Notebook (5-pack),Office Supplies,1,12.49,0.0,12.49,Bank Transfer,Online
+S0128,2025-11-07,C025,P003,27-inch Monitor,Electronics,2,249.0,0.0,498.0,PayPal,In-Store
+S0129,2025-11-10,C015,P008,Desk Lamp,Furniture,4,34.9,0.0,139.6,PayPal,In-Store
+S0130,2025-11-23,C008,P009,Bookshelf,Furniture,3,119.0,0.0,357.0,Credit Card,Online
+S0131,2025-11-24,C002,P002,Mechanical Keyboard,Electronics,1,89.99,0.0,89.99,Debit Card,Online
+S0132,2025-11-26,C023,P009,Bookshelf,Furniture,1,119.0,0.0,119.0,PayPal,Online
+S0133,2025-11-28,C016,P001,Wireless Mouse,Electronics,1,24.99,0.2,19.99,Credit Card,In-Store
+S0134,2025-11-29,C025,P004,USB-C Hub,Electronics,2,39.5,0.0,79.0,PayPal,In-Store
+S0135,2025-12-01,C022,P003,27-inch Monitor,Electronics,1,249.0,0.0,249.0,Bank Transfer,Online
+S0136,2025-12-03,C001,P012,Printer Paper (500 sheets),Office Supplies,2,7.8,0.05,14.82,Bank Transfer,In-Store
+S0137,2025-12-06,C006,P002,Mechanical Keyboard,Electronics,1,89.99,0.0,89.99,Credit Card,In-Store
+S0138,2025-12-06,C004,P003,27-inch Monitor,Electronics,3,249.0,0.1,672.3,Bank Transfer,In-Store
+S0139,2025-12-08,C019,P004,USB-C Hub,Electronics,1,39.5,0.0,39.5,Bank Transfer,Online
+S0140,2025-12-12,C019,P004,USB-C Hub,Electronics,2,39.5,0.05,75.05,PayPal,Online
+S0141,2025-12-13,C023,P013,Stapler,Office Supplies,4,14.25,0.0,57.0,Credit Card,In-Store
+S0142,2025-12-13,C018,P003,27-inch Monitor,Electronics,3,249.0,0.0,747.0,Credit Card,In-Store
+S0143,2025-12-14,C017,P008,Desk Lamp,Furniture,1,34.9,0.05,33.15,Credit Card,In-Store
+S0144,2025-12-14,C003,P003,27-inch Monitor,Electronics,1,249.0,0.0,249.0,Debit Card,In-Store
+S0145,2025-12-17,C003,P004,USB-C Hub,Electronics,2,39.5,0.0,79.0,PayPal,Online
+S0146,2025-12-18,C019,P006,Office Chair,Furniture,2,199.0,0.0,398.0,Bank Transfer,Online
+S0147,2025-12-19,C002,P009,Bookshelf,Furniture,4,119.0,0.1,428.4,PayPal,In-Store
+S0148,2025-12-21,C004,P008,Desk Lamp,Furniture,1,34.9,0.05,33.15,Debit Card,In-Store
+S0149,2025-12-29,C004,P004,USB-C Hub,Electronics,4,39.5,0.0,158.0,Credit Card,Online
+S0150,2025-12-31,C003,P007,Standing Desk,Furniture,2,429.0,0.0,858.0,PayPal,Online
