@@ -1,0 +1,104 @@
+table customers
+	lineageTag: 628f8a25-e3c9-47f4-a239-aa6013a0ac57
+
+	column customer_id
+		dataType: string
+		lineageTag: d3369a7a-479d-424c-b048-17bb6e959ff3
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column first_name
+		dataType: string
+		lineageTag: e534405f-853c-48ad-bc70-d7d925661560
+		summarizeBy: none
+		sourceColumn: first_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column last_name
+		dataType: string
+		lineageTag: 755c5b2c-03f8-4cd5-95a4-deb1cb2a28b0
+		summarizeBy: none
+		sourceColumn: last_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		lineageTag: b389e7d7-54fd-4653-8859-af2893aed1a5
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		lineageTag: 9613411f-f499-4328-8525-1d0f0dd02863
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		formatString: 0
+		lineageTag: 48e9b2e9-b278-4d20-9c9f-ec03bfcf9734
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 016e6d4a-ab8c-4cb0-b663-f3a814de9d58
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 3e65e690-dcbf-4c44-b696-7778b9e4816b
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment
+		dataType: string
+		lineageTag: 04acb203-9907-4cb8-872e-0a991f36c8ec
+		summarizeBy: none
+		sourceColumn: segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column signup_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: dd8cf42c-56db-4429-bda7-4ac05c9d545f
+		summarizeBy: none
+		sourceColumn: signup_date
+
+		variation Variation
+			isDefault
+			relationship: 0f7cea5b-ee7d-4c0d-8ff4-f3273c170582
+			defaultHierarchy: LocalDateTable_286c7038-3e7c-4058-93bf-4d9dfc88c896.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition customers = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PC\OneDrive\Desktop\Visual Studio Projects\Data-Analytics-Project-1\data\raw\customers.csv"),[Delimiter=",", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"first_name", type text}, {"last_name", type text}, {"email", type text}, {"gender", type text}, {"age", Int64.Type}, {"city", type text}, {"country", type text}, {"segment", type text}, {"signup_date", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
